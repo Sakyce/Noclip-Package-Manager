@@ -40,7 +40,7 @@ local function tryImport()
 		Timeout += 1
 		Success, Results = pcall(function() 
 			return game:GetService("ServerStorage"):FindFirstChild(Constants.PackagesName) or 
-				game:GetService("InsertService"):LoadAsset(Constants.PackagesId):GetChildren()[1]:GetChildren() 
+				game:GetService("InsertService"):LoadAsset(Constants.PackagesId):GetChildren()[1]
 		end)
 		if Success then
 			break
@@ -59,7 +59,7 @@ local function tryImport()
 		error(Results)
 	end
 	
-	return Results
+	return Results:GetChildren()
 	
 end
 
