@@ -7,7 +7,8 @@ You don't need to Publish every Places when you update your package.
 
 For testing purposes, put your packages folder inside ServerStorage so you don't have to upload it on the toolbox. 
 
-**WARNING: If the packages fails to import, the server closes. You can change the behavior in function ImportErrorHandler()**
+> **Warning**:
+> If the packages fails to import, the server closes. You can change the behavior in function ImportErrorHandler()
 
 ## Instructions
 1. Put everything you need to import in a folder, use the Attributes Priority and Location.
@@ -18,7 +19,9 @@ For testing purposes, put your packages folder inside ServerStorage so you don't
 5. In case scripts that starts before this script finish importing packages. Read "InsertThisInYourScripts" Module.
 6. If you want to test your packages before saving it to Roblox, put the Folder in ServerStorage
 	
-**ALWAYS BACKUP IN CASE ROBLOX DELETES THE MODEL FROM THE TOOLBOX**
+> **Warning**:
+> **ALWAYS BACKUP IN CASE ROBLOX DELETES THE MODEL FROM THE TOOLBOX**
+
 
 ## Why ?:
 I was creating Noclipped Reality until PackageLinks created more issues than solving.
