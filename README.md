@@ -1,4 +1,4 @@
-# An alternative to ROBLOX PackageLinks
+# An alternative to ROBLOX [PackageLinks](https://developer.roblox.com/en-us/articles/roblox-packages)
 
 ## Description
 Download game packages from Roblox Marketplace, and put them directly in the game when it starts.
@@ -11,7 +11,7 @@ For testing purposes, put your packages folder inside ServerStorage so you don't
 > If the packages fails to import, the server closes. You can change the behavior in function ImportErrorHandler()
 
 ## Instructions
-1. Put everything you need to import in a folder, use the Attributes Priority and Location.
+1. Put everything you need to import in a folder, use the [Attributes](https://developer.roblox.com/en-us/articles/instance-attributes) Priority and Location.
 2. Publish it to Roblox (Right click and "Publish To Roblox"), you don't need to publish it to the MarketPlace
 3. Put this Script into ServerScriptService
 4. Set Constants.PackagesId to the id of your packages to import
@@ -24,5 +24,5 @@ For testing purposes, put your packages folder inside ServerStorage so you don't
 
 
 ## Why ?:
-I was creating Noclipped Reality until PackageLinks created more issues than solving.
+I was creating [Noclipped Reality](https://www.roblox.com/groups/10640198/Noclip-Games) until [PackageLinks](https://developer.roblox.com/en-us/articles/roblox-packages) created more issues than solving.
 So I made this.
