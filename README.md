@@ -24,5 +24,5 @@ For testing purposes, put your packages folder inside ServerStorage so you don't
 
 
 ## Why ?:
-I was creating [Noclipped Reality](https://www.roblox.com/groups/10640198/Noclip-Games) until [PackageLinks](https://developer.roblox.com/en-us/articles/roblox-packages) created more issues than solving.
+I was creating [Noclipped Reality](https://www.roblox.com/groups/10640198/Noclip-Games) until PackageLinks created [more](https://devforum.roblox.com/t/package-issues-cant-publish-or-get-latest/365867) [issues](https://devforum.roblox.com/t/autoupdate-packagelink-models-are-extremely-buggy-in-team-create/653562) [than](https://devforum.roblox.com/t/a-package-keeps-thinking-i-changed-it-when-i-didnt/434887) [solving](https://devforum.roblox.com/t/cant-update-roblox-packages-because-the-last-version-got-moderated/1443363/3).
 So I made this.
