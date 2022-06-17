@@ -1,7 +1,5 @@
---> CONSTANTS
-local Constants = {}
-
 --> Add something in this dictionary if you need to import your package in another location
+local Constants = {}
 Constants.Locations = {
 	["ReplicatedStorage"] = game:GetService("ReplicatedStorage"),
 	["ServerStorage"] = game:GetService("ServerStorage"),
