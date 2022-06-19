@@ -90,4 +90,5 @@ while #ImportedPackages > 0 do
 end
 
 game:SetAttribute("Packages_Imported", true)
+game.ReplicatedStorage:SetAttribute("Packages_Imported", true)
 return true
