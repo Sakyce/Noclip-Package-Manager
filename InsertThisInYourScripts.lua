@@ -4,3 +4,8 @@
 if not game:GetAttribute("Packages_Imported") then
 	game:GetAttributeChangedSignal("Packages_Imported"):Wait()
 end
+
+--> Use this instead of local scripts because the game object isn't replicated
+if not game.ReplicatedStorage:GetAttribute("Packages_Imported") then
+	game:GetAttributeChangedSignal("Packages_Imported"):Wait()
+end
