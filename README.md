@@ -3,7 +3,7 @@
 ## Description
 Download game packages from Roblox Marketplace, and put them directly in the game when it starts.
 This script is made for Roblox Experiences that needs the same script over multiple Places.
-You don't need to Publish every Places when you update your package.
+**You don't need to Publish every Places when you update your package. Which is a good benefit when having a dozen of places!**
 
 For testing purposes, put your packages folder inside ServerStorage so you don't have to upload it on the toolbox. 
 
@@ -25,4 +25,4 @@ For testing purposes, put your packages folder inside ServerStorage so you don't
 
 ## Why ?:
 I was creating [Noclipped Reality](https://www.roblox.com/groups/10640198/Noclip-Games) until PackageLinks created [more](https://devforum.roblox.com/t/package-issues-cant-publish-or-get-latest/365867) [issues](https://devforum.roblox.com/t/autoupdate-packagelink-models-are-extremely-buggy-in-team-create/653562) [than](https://devforum.roblox.com/t/a-package-keeps-thinking-i-changed-it-when-i-didnt/434887) [solving](https://devforum.roblox.com/t/cant-update-roblox-packages-because-the-last-version-got-moderated/1443363).
-So I made this.
+Also, I didn't wanted to use solutions like Rojo, So I made this. 
